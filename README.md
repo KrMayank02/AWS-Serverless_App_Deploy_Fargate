@@ -63,18 +63,55 @@ The web-app image with tag: latest has been pushed to ECR repo from EC2 machine.
 
 <img width="864" height="312" alt="image" src="https://github.com/user-attachments/assets/f3e461a8-f0d6-4159-aff7-c01a8fb28a90" />
 
+------------------------------------------------------------------------------------------------------------------------------------
+
+Create ECS Cluster, Task Definition, Service, Load Balancer:
 
 
+<img width="957" height="341" alt="image" src="https://github.com/user-attachments/assets/f2653510-4ec1-4896-9a92-f7c65522b30d" />
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="962" height="356" alt="image" src="https://github.com/user-attachments/assets/ab0b4c1c-aa50-42f8-bb71-bdf57dfb46b2" />
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="957" height="364" alt="image" src="https://github.com/user-attachments/assets/648fe87e-224c-4cf2-bdad-d47eb10d0546" />
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Under Amazon ECS, Service has been created and deployed successfully:
 
 
+<img width="956" height="355" alt="image" src="https://github.com/user-attachments/assets/29962397-197d-4db1-8608-169f4276fc20" />
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
+<img width="961" height="235" alt="image" src="https://github.com/user-attachments/assets/47605ef2-7c0f-46f7-9da4-e9f22003c28a" />
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
+<img width="958" height="402" alt="image" src="https://github.com/user-attachments/assets/fe45a4c1-69a7-4e79-b018-4159353c3609" />
 
+-------------------------------------------------------------------------------------------------------------------------------------
 
+Copy the DNS name: alb-web-app-1955152254.us-east-1.elb.amazonaws.com
 
+Final Web Application URL: http://alb-web-app-1955152254.us-east-1.elb.amazonaws.com:8080/LoginWebApp-1/
 
+<img width="966" height="468" alt="image" src="https://github.com/user-attachments/assets/64c8c4b8-b0d1-4cb3-a032-1ff84f568271" />
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Open the Browser and hit the App URL to access the Web Application.
+
+The Web-Application gets accesssed successfully,  Login page loaded on browser:
+
+<img width="968" height="381" alt="image" src="https://github.com/user-attachments/assets/47de5cb6-e2f3-40ec-8a5b-c124b2b1952d" />
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+**By following the above steps, the Project successfully deploys the Dockerized Web-Application using AWS services, including Amazon ECS, Amazon ECR, AWS Fargate and Load Balancer. This deployment enables** **serverless operation, reducing infrastructure management while ensuring the application can handle fluctuating traffic demands seamlessly and securely.**
 
 
 
